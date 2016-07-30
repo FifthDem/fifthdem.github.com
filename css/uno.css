@@ -4,6 +4,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url(http://fonts.useso.com/css?family=Voces|Exo);
 @import url(../css/animate.css);
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
@@ -1200,7 +1201,7 @@ hr {
   background-size: cover; }
 
 .panel-cover--collapsed {
-  width: 32%;
+  width: 24%;
   max-width: 430px; }
 
 .panel-cover--overlay {
@@ -1220,6 +1221,8 @@ hr {
   margin-bottom: .2em; }
 
 .panel-cover__description {
+  font-family: 'Voces', cursive;
+  font-size:18px;
   margin: 0 30px; }
 
 .panel-cover__divider {
@@ -1228,7 +1231,7 @@ hr {
   border-top: 1px solid rgba(255, 255, 255, 0.14); }
 
 .panel-cover__divider--secondary {
-  width: 15%; }
+  width: 18%; }
 
 .panel-main {
   display: table;
@@ -1677,7 +1680,7 @@ table {
   border-collapse: collapse;
   width: 100%;
   margin: 0 0 10px;
-  border-spacing: 0; 
+  border-spacing: 0;
   border: 1px solid #aaa;
 }
 
@@ -1699,5 +1702,5 @@ th, td {
   border: none;
 }
 pre {
-  font-family: 
+  font-family:
 }
